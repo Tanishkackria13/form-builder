@@ -9,6 +9,7 @@ import {
   UserButton,
 } from "@clerk/nextjs";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "@/components/ui/toaster";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -41,13 +42,14 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <SignedOut>
+            {/* <SignedOut>
               <SignInButton />
             </SignedOut>
             <SignedIn>
               <UserButton />
-            </SignedIn>
+            </SignedIn> */}
             {children}
+            <Toaster/>
           </ThemeProvider>
         </body>
       </html>
