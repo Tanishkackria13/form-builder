@@ -26,7 +26,7 @@ import {BsFileEarmarkPlus} from "react-icons/bs"
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { CreateForm } from "@/actions/form";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 const CreateFormBtn = () => {
   const router = useRouter();
