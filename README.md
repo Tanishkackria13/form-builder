@@ -1,3 +1,67 @@
+# Project Title: Advanced Form Builder with Drag-and-Drop
+
+This project is an advanced form builder application. 
+The project focuses on creating a dynamic and interactive form builder using modern technologies such as **React**, **Next.js**, and **TypeScript**, with drag-and-drop functionality implemented via the `@dnd-kit` library.
+
+---
+
+## Features
+
+- **Drag-and-Drop Form Builder**: Add, reorder, and customize form fields using a user-friendly drag-and-drop interface.
+- **Dynamic Form Elements**: Includes form fields like text input, checkboxes, radio buttons, and more.
+- **Component-Based Design**: Built with reusable and modular React components.
+- **Customizable Properties Panel**: Edit properties of selected form elements in real time.
+- **Interactive UI**: Provides a visually appealing and responsive user experience.
+
+---
+
+## Tech Stack
+
+- **React**: For building the user interface.
+- **Next.js**: For server-side rendering and routing.
+- **TypeScript**: For type safety and improved developer experience.
+- **@dnd-kit**: For implementing drag-and-drop functionality.
+- **TailwindCSS**: For styling and layout.
+
+---
+
+## Installation
+
+### Prerequisites
+Ensure you have the following installed:
+- Node.js (v16+)
+- npm or yarn package manager
+
+### Steps
+
+1. Clone the Repository:
+   ```bash
+   git clone https://github.com/username/repository.git
+   cd repository
+   ```
+
+2. Install Dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the Development Server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open the App:
+   Visit `http://localhost:3000` in your browser to see the app in action.
+
+--
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

@@ -5,7 +5,7 @@ import React, { useEffect } from "react";
 
 function ErrorPage(error: Error) {
   useEffect(() => {
-    // console.error(error);
+    console.error(error);
   }, [error]);
 
   return (
